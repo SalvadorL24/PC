@@ -5,13 +5,11 @@ function Games({ addToCart }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch('/juegos.json')
-      .then(response => response.json())
-      .then(data => {
-        setGames(data);
-        setLoading(false);
-      })
-      .catch(error => {
+ fetch(https://salvador124.github.io/game-zone/data/productos/juegos.json)
+.then(response => response.json())
+.then(data => setProductos(data))
+.catch(error => console.error('Error:', error));
+> {
         console.error('Error cargando juegos:', error);
         setLoading(false);
       });

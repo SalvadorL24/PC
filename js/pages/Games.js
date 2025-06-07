@@ -5,7 +5,7 @@ function Games({ addToCart }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
- fetch(https://salvador124.github.io/game-zone/data/productos/juegos.json)
+ fetch(https://salvador124.github.io/PC/juegos.json)
 .then(response => response.json())
 .then(data => setProductos(data))
 .catch(error => console.error('Error:', error));

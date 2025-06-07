@@ -1,0 +1,51 @@
+[
+  {
+    "id": 25,
+    "name": "Mando DualSense PS5",
+    "price": 69.99,
+    "image": "images/imag1.jpeg",
+    "category": "accesorios"
+  },
+  {
+    "id": 26,
+    "name": "Auriculares Gaming",
+    "price": 89.99,
+    "image": "images/imag2.jpeg",
+    "category": "accesorios"
+  },
+  {
+    "id": 27,
+    "name": "Cargador Nintendo Switch",
+    "price": 29.99,
+    "image": "images/cargador.jpge.webp",
+    "category": "accesorios"
+  },
+  {
+    "id": 28,
+    "name": "Joy cons Nintendo Switch",
+    "price": 29.99,
+    "image": "images/joy.jpg",
+    "category": "accesorios"
+  },
+  {
+    "id": 29,
+    "name": "VR - ps4",
+    "price": 49.99,
+    "image": "images/VR.webp",
+    "category": "accesorios"
+  },
+  {
+    "id": 30,
+    "name": "Mando ediccion Crash",
+    "price": 29.99,
+    "image": "images/mando4.webp",
+    "category": "accesorios"
+  },
+  {
+    "id": 31,
+    "name": "Mando ediccion Super Mario",
+    "price": 29.99,
+    "image": "images/mando5.webp",
+    "category": "accesorios"
+  }
+]

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Zone</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="root"></div>
+
+ 
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+ <script>
+    
+  const isGitHubPages = window.location.hostname.includes('github.io');
+  const baseUrl = isGitHubPages ? '/PC' : '';
+  
+  window.baseUrl = baseUrl;
+</script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            green: {
+              200: '#C6F6D5',
+              300: '#9AE6B4',
+              500: '#48BB78',
+              600: '#38A169',
+              700: '#2F855A',
+              800: '#276749',
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  
+  <script src="js/App.js" type="text/babel"></script>
+  <script src="js/components/Header.js" type="text/babel"></script>
+  <script src="js/components/Footer.js" type="text/babel"></script>
+  <script src="js/components/ProductCard.js" type="text/babel"></script>
+  <script src="js/components/Cart.js" type="text/babel"></script>
+  <script src="js/pages/Home.js" type="text/babel"></script>
+  <script src="js/pages/Games.js" type="text/babel"></script>
+  <script src="js/pages/Funkos.js" type="text/babel"></script>
+  <script src="js/pages/Consoles.js" type="text/babel"></script>
+  <script src="js/pages/Accessories.js" type="text/babel"></script>
+  <script src="js/pages/Contact.js" type="text/babel"></script>
+</body>
+</html>
